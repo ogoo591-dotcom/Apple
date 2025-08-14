@@ -1,0 +1,403 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f7;
+}
+.navbar {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  background-color: #f5f5f7;
+  align-items: center;
+  gap: 24px;
+}
+.navbar button {
+  font-size: 12px;
+  font-weight: 400;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.logo {
+  width: 15px;
+  height: 15px;
+}
+.deed-vg {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  padding: 20px 20px;
+}
+.hooson {
+  width: 100vw;
+  height: 40px;
+  background: transparent;
+  display: flex;
+  position: relative;
+  overflow-y: hidden;
+}
+.ungu {
+  position: static;
+  background: linear-gradient(
+    to right,
+    #80d8ff,
+    #7c4dff,
+    #ff4081,
+    #ff6e40,
+    #ff9100
+  );
+  width: 100vw;
+  height: 80px;
+  z-index: -1;
+  filter: blur(7px);
+  position: absolute;
+  bottom: 15px;
+}
+.ehlel {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.vgs {
+  display: flex;
+  width: 42vw;
+  font-size: 44px;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.store {
+  background: linear-gradient(90.43deg, #0090f7, #ba62fc, #f2416b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-clip: text;
+  color: transparent;
+}
+.gift {
+  color: gray;
+}
+.hun {
+  width: 34px;
+  height: 34px;
+}
+.vgs2 {
+  display: flex;
+  width: 50vw;
+  justify-content: end;
+  margin-right: 100px;
+  gap: 10px;
+  align-items: flex-start;
+}
+.asuult {
+  display: flex;
+  justify-content: start;
+}
+.vg-ungu {
+  color: #0066cc;
+  cursor: pointer;
+}
+.hu-zu {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 200px;
+}
+.mac {
+  font-size: 14px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  padding: 5px;
+}
+.size {
+  display: flex;
+  font-size: 24px;
+  gap: 32px;
+  justify-content: start;
+  align-items: center;
+  padding: 10px 10px;
+}
+.egnee {
+  display: flex;
+  width: 90vw;
+  gap: 20px;
+  overflow: scroll;
+}
+.egnee-item {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  flex-shrink: 0;
+}
+.egnee-item img {
+  width: 480px;
+  height: 500px;
+  border-radius: 5%;
+  box-shadow: 3px 3px 3px 3px rgb(204, 203, 203);
+}
+.pro-ehlel {
+  position: absolute;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.pro {
+  font-size: 28px;
+  margin-top: 10px;
+}
+.pro1 {
+  font-size: 12px;
+  color: #f2416b;
+}
+.pro2 {
+  font-size: 16px;
+  font-style: Regular;
+  margin-top: 10px;
+}
+.flex {
+  display: flex;
+}
+
+.box {
+  border-radius: 5%;
+  width: 313px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.air2 {
+  width: 230px;
+  height: 250px;
+  opacity: 1;
+  padding: 10px 0px;
+}
+.tseg-item {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 0px;
+}
+
+.tseg {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  opacity: 0.2;
+}
+.tseg1 {
+  background-color: #190e5d;
+}
+.tseg2 {
+  background-color: #afabac;
+}
+.tseg3 {
+  background-color: rgb(16, 16, 16);
+}
+.tseg4 {
+  background-color: #6d6467;
+}
+.tseg5 {
+  background-color: rgb(2, 57, 36);
+}
+.air-text {
+  flex-direction: column;
+  display: flex;
+  height: 100px;
+  width: 230px;
+}
+.box1 {
+  border-radius: 5%;
+  width: 313px;
+  height: 240px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: start;
+  padding-left: 30px;
+}
+.box2 {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+.pro3 {
+  font-size: 16px;
+  color: #4b4949;
+}
+.urgun {
+  width: 400px;
+}
+.link {
+  border-radius: 50px;
+  border: 1px solid #0a0a0a;
+  background-color: transparent;
+  font-size: 16px;
+  color: #131313;
+  padding: 12px 20px;
+  cursor: pointer;
+  padding: 15px 0px;
+  width: 150px;
+  margin-bottom: 50px;
+}
+.footer {
+  padding: 50px 200px;
+  margin-top: 100px;
+}
+.footer2 {
+  display: flex;
+  padding: 0px 200px;
+  gap: 10px;
+  cursor: pointer;
+}
+.sum {
+  width: 8px;
+  height: 8px;
+}
+.zai {
+  padding-left: 200px;
+}
+@media only screen and (max-width: 768px) {
+  .navbar button {
+    display: none;
+  }
+  .navbar {
+    justify-content: space-between;
+    width: auto;
+    height: 100%;
+    padding: 0px 20px;
+  }
+  .zai {
+    padding: 0px;
+    width: 768px;
+  }
+  .vgs {
+    gap: 0px;
+    font-size: 32px;
+  }
+  .hun {
+    width: 20px;
+    height: 20px;
+  }
+  .vgs2 {
+    font-size: 10px;
+    margin-right: 0px;
+  }
+  .hu-zu {
+    width: auto;
+    overflow: scroll;
+  }
+  .egnee {
+    gap: 0px;
+    width: 768px;
+  }
+  .footer {
+    padding: 5px 20px;
+    font-size: 20px;
+  }
+  .link {
+    width: 130px;
+    font-size: 12px;
+  }
+  .footer2 {
+    padding: 0px 10px;
+  }
+  .pro {
+    font-size: 22px;
+  }
+  .pro1 {
+    font-size: 8px;
+  }
+  .pro2 {
+    font-size: 14px;
+  }
+  .pro3 {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .navbar button {
+    display: none;
+  }
+  .navbar {
+    justify-content: space-between;
+    width: auto;
+    height: 100%;
+    padding: 0px 20px;
+  }
+  .zai {
+    padding: 0px;
+    width: 390px;
+  }
+  .vgs {
+    gap: 0px;
+    font-size: 28px;
+  }
+  .hun {
+    width: 15px;
+    height: 15px;
+  }
+  .vgs2 {
+    font-size: 8px;
+    margin-right: 0px;
+  }
+  .hu-zu {
+    width: auto;
+    overflow: scroll;
+  }
+  .egnee {
+    gap: 0px;
+    width: 390px;
+  }
+  .footer {
+    padding: 5px 20px;
+    font-size: 18px;
+  }
+  .link {
+    width: 100px;
+    font-size: 8px;
+  }
+  .footer2 {
+    padding: 0px 10px;
+  }
+  .pro {
+    font-size: 20px;
+  }
+  .pro1 {
+    font-size: 6px;
+  }
+  .pro2 {
+    font-size: 12px;
+  }
+  .pro3 {
+    font-size: 8px;
+  }
+  .size {
+    font-size: 18px;
+  }
+  .deed-vg {
+    font-size: 10px;
+  }
+  .store {
+    font-size: 14px;
+  }
+  .gift {
+    font-size: 12px;
+  }
+}
